@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkpt.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Shoes Shopping </h1>
+    </header>
+   
+ <div class="container">
+      
+        <div id="input1">
+        <img src="jaune.jpg" alt="jaune" width="240" height="190">
+        <h3>Nike Magista 2 Price:<span id="prix1">110</span>$</h3>
+        <input type="number" value="0" min="1" name="price" id="Q1">
+        <input type="button" onclick="add('Q1')" value="+" field="price"  >
+        <input type="button" onclick="drop('Q1')" value="-" field="price">
+        <input type="button" onclick="remove('input1')" value="x" field="price">
+        <input  id="likeBtn" type="button" onclick="like('input1')" value="👍" field="price">
+        
+    </div>
+      
+
+
+      <div id="input2">
+       
+        <img src="blanc.jpg" alt="blanc" width="240" height="190">  
+        <h3>Nike V Untouch Price:<span id="prix2">90</span>$</h3>
+        <input type="number" value="0" min="0" name="price" id="Q2">
+        <input type="button" onclick="add('Q2')" value="+" field="price">
+        <input type="button" onclick="drop('Q2')" value="-" field="price">
+        <input type="button" onclick="remove('input2')" value="x" field="price">
+        <input id="likeBtn" type="button" onclick="like('input2')" value="👍" field="price">
+      </div>
+
+      <div id="input3">
+        <img src="bleu.jpg" alt="bleu" width="240" height="190">
+        <h3>Nike Mercu S 7 Price:<span id="prix3">90</span>$</h3>
+        <input type="number" value="0" min="0" name="price" id="Q3">
+        <input type="button" onclick="add('Q3')" value="+" field="price">
+        <input type="button" onclick="drop('Q3')" value="-" field="price">
+        <input type="button" onclick="remove('input3')" value="x" field="price">
+        <input id="likeBtn" type="button" onclick="like('input3')" value="👍" field="price">
+        <br>
+      </div>
+      
+
+      <div id="input4">
+        <img src="gold.jpg" alt="gold" width="240" height="190">
+        <h3>Mercu Sfly CR7 Price:<span id="prix4">210</span>$</h3>
+        <input type="number" value="0" min="0" name="price" id="Q4">
+        <input type="button" onclick="add('Q4')" value="+" field="price">
+        <input type="button" onclick="drop('Q4')" value="-" field="price">
+        <input type="button" onclick="remove('input4')" value="x" field="price">
+        <input id="likeBtn" type="button" onclick="like('input4')" value="👍" field="price">
+      </div>
+
+
+      <div id="input5">
+        <img src="noire.jpg" alt="noire" width="240" height="190">
+        <h3>Nike Mercu S f 6 Price:<span id="prix5">110</span>$</h3>
+        <input type="number" value="0" min="0" name="price" id="Q5">
+        <input type="button" onclick="add('Q5')" value="+" field="price">
+        <input type="button" onclick="drop('Q5')" value="-" field="price">
+        <input type="button" onclick="remove('input5')" value="x" field="price">
+        <input id="likeBtn" type="button" onclick="like('input5')" value="👍" field="price">
+      </div>
+
+
+      <div id="input6">
+        <img src="rose.jpg" alt="rose" width="240" height="190">
+        <h3>Nike Mercu S V Price:<span id="prix6">150</span>$</h3>
+        <input type="number" value="0" min="0" name="price" id="Q6">
+        <input type="button" onclick="add('Q6')" value="+" field="price">
+        <input type="button" onclick="drop('Q6')" value="-" field="price">
+        <input type="button" onclick="remove('input6')" value="x" field="price">
+        <input id="likeBtn" type="button" onclick="like('input6')" value="👍" field="price">
+      </div>
+
+</div>   
+
+
+
+<footer>
+ Prix Total : <input type="number" id="total" value ="0" min="0">$
+</footer>
+
+<script src="checkpt.js"></script>    
+</body>
+</html>
